@@ -1,0 +1,14 @@
+{
+  "name": "studio",
+  "owner": { "name": "2yong-k", "url": "https://github.com/2yong-k" },
+  "metadata": {
+    "description": "studio: a Claude Code plugin that makes images and videos from a brief and an approved price quote."
+  },
+  "plugins": [
+    {
+      "name": "studio",
+      "source": "./plugins/studio",
+      "description": "Make high-quality images and videos by asking Claude: a brief, an approved price quote, then generation and review."
+    }
+  ]
+}

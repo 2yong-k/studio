@@ -1,0 +1,27 @@
+{
+  "name": "studio",
+  "version": "1.0.0",
+  "description": "Make high-quality images and videos by asking Claude: a brief, an approved price quote, then generation and review.",
+  "author": { "name": "2yong-k", "url": "https://github.com/2yong-k" },
+  "homepage": "https://github.com/2yong-k/studio",
+  "repository": "https://github.com/2yong-k/studio",
+  "license": "MIT",
+  "engines": { "claude-code": ">=2.1.139" },
+  "network": { "hosts": ["queue.fal.run", "api.fal.ai", "fal.media", "*.fal.media"] },
+  "userConfig": {
+    "studio_home": {
+      "type": "directory",
+      "title": "Studio folder",
+      "description": "Folder where your works, assets and price records are kept.",
+      "default": "~/studio-works",
+      "required": false
+    },
+    "fal_key": {
+      "type": "string",
+      "title": "fal API key",
+      "description": "Key used for real generation. Leave empty to stay in fake mode.",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

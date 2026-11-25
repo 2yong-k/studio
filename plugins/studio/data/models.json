@@ -1,0 +1,1448 @@
+{
+  "schema": 1,
+  "models": [
+    {
+      "id": "gpt-25-flare",
+      "provider": "fal",
+      "endpoint": "openai/gpt-image-2.5/flare/edit",
+      "output": "image",
+      "use": "GPT Image 2.5 Flare edit: image editing and keyframes from reference images",
+      "sizes": [
+        {
+          "w": 1024,
+          "h": 768,
+          "params": {
+            "image_size.width": 1024,
+            "image_size.height": 768
+          }
+        },
+        {
+          "w": 1024,
+          "h": 1024,
+          "params": {
+            "image_size.width": 1024,
+            "image_size.height": 1024
+          }
+        },
+        {
+          "w": 1024,
+          "h": 1536,
+          "params": {
+            "image_size.width": 1024,
+            "image_size.height": 1536
+          }
+        },
+        {
+          "w": 1920,
+          "h": 1072,
+          "params": {
+            "image_size.width": 1920,
+            "image_size.height": 1072
+          }
+        },
+        {
+          "w": 2560,
+          "h": 1440,
+          "params": {
+            "image_size.width": 2560,
+            "image_size.height": 1440
+          }
+        },
+        {
+          "w": 3840,
+          "h": 2160,
+          "params": {
+            "image_size.width": 3840,
+            "image_size.height": 2160
+          }
+        }
+      ],
+      "durations": [],
+      "fps": null,
+      "audio": false,
+      "slots": {
+        "prompt": "prompt",
+        "refs": {
+          "param": "image_urls",
+          "min": 1,
+          "max": 16
+        },
+        "firstFrame": null,
+        "lastFrame": null
+      },
+      "fixedParams": {
+        "num_images": 1,
+        "output_format": "png",
+        "quality": "high"
+      },
+      "billing": {
+        "unit": "1M tokens",
+        "quantityPerUnit": 1000000,
+        "quantity": {
+          "kind": "image_tokens",
+          "bySize": [
+            {
+              "w": 1024,
+              "h": 768,
+              "tokens": 1204
+            },
+            {
+              "w": 1024,
+              "h": 1024,
+              "tokens": 1756
+            },
+            {
+              "w": 1024,
+              "h": 1536,
+              "tokens": 1372
+            },
+            {
+              "w": 1920,
+              "h": 1072,
+              "tokens": 1315
+            },
+            {
+              "w": 2560,
+              "h": 1440,
+              "tokens": 1843
+            },
+            {
+              "w": 3840,
+              "h": 2160,
+              "tokens": 3336
+            }
+          ],
+          "perRefTokens": 400
+        },
+        "stated": {
+          "unit": "1M tokens",
+          "unitPriceUsd": "30",
+          "checkedAt": "2026-11-18",
+          "source": "https://fal.ai/models/openai/gpt-image-2.5/flare/edit"
+        }
+      },
+      "commercialUse": {
+        "checkedAt": "2026-10-29",
+        "source": "https://fal.ai/models/openai/gpt-image-2.5/flare/edit"
+      }
+    },
+    {
+      "id": "gpt-25-sunburst",
+      "provider": "fal",
+      "endpoint": "openai/gpt-image-2.5/sunburst/edit",
+      "output": "image",
+      "use": "GPT Image 2.5 Sunburst edit: image editing and keyframes from reference images",
+      "sizes": [
+        {
+          "w": 1024,
+          "h": 768,
+          "params": {
+            "image_size.width": 1024,
+            "image_size.height": 768
+          }
+        },
+        {
+          "w": 1024,
+          "h": 1024,
+          "params": {
+            "image_size.width": 1024,
+            "image_size.height": 1024
+          }
+        },
+        {
+          "w": 1024,
+          "h": 1536,
+          "params": {
+            "image_size.width": 1024,
+            "image_size.height": 1536
+          }
+        },
+        {
+          "w": 1920,
+          "h": 1072,
+          "params": {
+            "image_size.width": 1920,
+            "image_size.height": 1072
+          }
+        },
+        {
+          "w": 2560,
+          "h": 1440,
+          "params": {
+            "image_size.width": 2560,
+            "image_size.height": 1440
+          }
+        },
+        {
+          "w": 3840,
+          "h": 2160,
+          "params": {
+            "image_size.width": 3840,
+            "image_size.height": 2160
+          }
+        }
+      ],
+      "durations": [],
+      "fps": null,
+      "audio": false,
+      "slots": {
+        "prompt": "prompt",
+        "refs": {
+          "param": "image_urls",
+          "min": 1,
+          "max": 16
+        },
+        "firstFrame": null,
+        "lastFrame": null
+      },
+      "fixedParams": {
+        "num_images": 1,
+        "output_format": "png",
+        "quality": "high"
+      },
+      "billing": {
+        "unit": "1M tokens",
+        "quantityPerUnit": 1000000,
+        "quantity": {
+          "kind": "image_tokens",
+          "bySize": [
+            {
+              "w": 1024,
+              "h": 768,
+              "tokens": 1204
+            },
+            {
+              "w": 1024,
+              "h": 1024,
+              "tokens": 1756
+            },
+            {
+              "w": 1024,
+              "h": 1536,
+              "tokens": 1372
+            },
+            {
+              "w": 1920,
+              "h": 1072,
+              "tokens": 1315
+            },
+            {
+              "w": 2560,
+              "h": 1440,
+              "tokens": 1843
+            },
+            {
+              "w": 3840,
+              "h": 2160,
+              "tokens": 3336
+            }
+          ],
+          "perRefTokens": 400
+        },
+        "stated": {
+          "unit": "1M tokens",
+          "unitPriceUsd": "30",
+          "checkedAt": "2026-11-12",
+          "source": "https://fal.ai/models/openai/gpt-image-2.5/sunburst/edit"
+        }
+      },
+      "commercialUse": {
+        "checkedAt": "2026-10-29",
+        "source": "https://fal.ai/models/openai/gpt-image-2.5/sunburst/edit"
+      }
+    },
+    {
+      "id": "banana-21",
+      "provider": "fal",
+      "endpoint": "google/nano-banana-2.1/edit",
+      "output": "image",
+      "use": "Nano Banana 2.1 edit: image editing and keyframes from up to 14 reference images",
+      "sizes": [
+        {
+          "w": 1024,
+          "h": 1024,
+          "params": {
+            "aspect_ratio": "1:1"
+          }
+        },
+        {
+          "w": 512,
+          "h": 2048,
+          "params": {
+            "aspect_ratio": "1:4"
+          }
+        },
+        {
+          "w": 384,
+          "h": 3072,
+          "params": {
+            "aspect_ratio": "1:8"
+          }
+        },
+        {
+          "w": 848,
+          "h": 1264,
+          "params": {
+            "aspect_ratio": "2:3"
+          }
+        },
+        {
+          "w": 1264,
+          "h": 848,
+          "params": {
+            "aspect_ratio": "3:2"
+          }
+        },
+        {
+          "w": 896,
+          "h": 1200,
+          "params": {
+            "aspect_ratio": "3:4"
+          }
+        },
+        {
+          "w": 2048,
+          "h": 512,
+          "params": {
+            "aspect_ratio": "4:1"
+          }
+        },
+        {
+          "w": 1200,
+          "h": 896,
+          "params": {
+            "aspect_ratio": "4:3"
+          }
+        },
+        {
+          "w": 928,
+          "h": 1152,
+          "params": {
+            "aspect_ratio": "4:5"
+          }
+        },
+        {
+          "w": 1152,
+          "h": 928,
+          "params": {
+            "aspect_ratio": "5:4"
+          }
+        },
+        {
+          "w": 3072,
+          "h": 384,
+          "params": {
+            "aspect_ratio": "8:1"
+          }
+        },
+        {
+          "w": 768,
+          "h": 1376,
+          "params": {
+            "aspect_ratio": "9:16"
+          }
+        },
+        {
+          "w": 1376,
+          "h": 768,
+          "params": {
+            "aspect_ratio": "16:9"
+          }
+        },
+        {
+          "w": 1584,
+          "h": 672,
+          "params": {
+            "aspect_ratio": "21:9"
+          }
+        }
+      ],
+      "durations": [],
+      "fps": null,
+      "audio": false,
+      "slots": {
+        "prompt": "prompt",
+        "refs": {
+          "param": "image_urls",
+          "min": 0,
+          "max": 14
+        },
+        "firstFrame": null,
+        "lastFrame": null
+      },
+      "fixedParams": {
+        "num_images": 1,
+        "output_format": "png",
+        "resolution": "1K",
+        "thinking_level": "minimal"
+      },
+      "billing": {
+        "unit": "1M tokens",
+        "quantityPerUnit": 1000000,
+        "quantity": {
+          "kind": "fixed_tokens",
+          "tokens": 1120,
+          "perRefTokens": 1120
+        },
+        "stated": {
+          "unit": "1M tokens",
+          "unitPriceUsd": "35.294",
+          "checkedAt": "2026-11-12",
+          "source": "https://fal.ai/models/google/nano-banana-2.1/edit"
+        }
+      },
+      "commercialUse": {
+        "checkedAt": "2026-10-29",
+        "source": "https://fal.ai/models/google/nano-banana-2.1/edit"
+      }
+    },
+    {
+      "id": "banana-pro",
+      "provider": "fal",
+      "endpoint": "fal-ai/nano-banana-pro/edit",
+      "output": "image",
+      "use": "Nano Banana Pro edit: image editing and keyframes from up to 14 reference images",
+      "sizes": [
+        {
+          "w": 1024,
+          "h": 1024,
+          "params": {
+            "aspect_ratio": "1:1"
+          }
+        },
+        {
+          "w": 848,
+          "h": 1264,
+          "params": {
+            "aspect_ratio": "2:3"
+          }
+        },
+        {
+          "w": 1264,
+          "h": 848,
+          "params": {
+            "aspect_ratio": "3:2"
+          }
+        },
+        {
+          "w": 896,
+          "h": 1200,
+          "params": {
+            "aspect_ratio": "3:4"
+          }
+        },
+        {
+          "w": 1200,
+          "h": 896,
+          "params": {
+            "aspect_ratio": "4:3"
+          }
+        },
+        {
+          "w": 928,
+          "h": 1152,
+          "params": {
+            "aspect_ratio": "4:5"
+          }
+        },
+        {
+          "w": 1152,
+          "h": 928,
+          "params": {
+            "aspect_ratio": "5:4"
+          }
+        },
+        {
+          "w": 768,
+          "h": 1376,
+          "params": {
+            "aspect_ratio": "9:16"
+          }
+        },
+        {
+          "w": 1376,
+          "h": 768,
+          "params": {
+            "aspect_ratio": "16:9"
+          }
+        },
+        {
+          "w": 1584,
+          "h": 672,
+          "params": {
+            "aspect_ratio": "21:9"
+          }
+        }
+      ],
+      "durations": [],
+      "fps": null,
+      "audio": false,
+      "slots": {
+        "prompt": "prompt",
+        "refs": {
+          "param": "image_urls",
+          "min": 1,
+          "max": 14
+        },
+        "firstFrame": null,
+        "lastFrame": null
+      },
+      "fixedParams": {
+        "num_images": 1,
+        "output_format": "png",
+        "resolution": "1K"
+      },
+      "billing": {
+        "unit": "images",
+        "quantityPerUnit": 1,
+        "quantity": {
+          "kind": "per_image"
+        }
+      },
+      "commercialUse": {
+        "checkedAt": "2026-10-30",
+        "source": "https://fal.ai/models/fal-ai/nano-banana-pro/edit"
+      }
+    },
+    {
+      "id": "seedance-25",
+      "provider": "fal",
+      "endpoint": "bytedance/seedance-2.5/image-to-video",
+      "output": "video",
+      "use": "Seedance 2.5 image to video: animate a keyframe, 4 to 30 seconds, native audio",
+      "sizes": [
+        {
+          "w": 992,
+          "h": 432,
+          "params": {
+            "resolution": "480p"
+          }
+        },
+        {
+          "w": 864,
+          "h": 496,
+          "params": {
+            "resolution": "480p"
+          }
+        },
+        {
+          "w": 752,
+          "h": 560,
+          "params": {
+            "resolution": "480p"
+          }
+        },
+        {
+          "w": 640,
+          "h": 640,
+          "params": {
+            "resolution": "480p"
+          }
+        },
+        {
+          "w": 560,
+          "h": 752,
+          "params": {
+            "resolution": "480p"
+          }
+        },
+        {
+          "w": 496,
+          "h": 864,
+          "params": {
+            "resolution": "480p"
+          }
+        },
+        {
+          "w": 1470,
+          "h": 630,
+          "params": {
+            "resolution": "720p"
+          }
+        },
+        {
+          "w": 1280,
+          "h": 720,
+          "params": {
+            "resolution": "720p"
+          }
+        },
+        {
+          "w": 1112,
+          "h": 834,
+          "params": {
+            "resolution": "720p"
+          }
+        },
+        {
+          "w": 960,
+          "h": 960,
+          "params": {
+            "resolution": "720p"
+          }
+        },
+        {
+          "w": 834,
+          "h": 1112,
+          "params": {
+            "resolution": "720p"
+          }
+        },
+        {
+          "w": 720,
+          "h": 1280,
+          "params": {
+            "resolution": "720p"
+          }
+        }
+      ],
+      "durations": [
+        {
+          "ms": 4000,
+          "params": {
+            "duration": "4"
+          }
+        },
+        {
+          "ms": 5000,
+          "params": {
+            "duration": "5"
+          }
+        },
+        {
+          "ms": 6000,
+          "params": {
+            "duration": "6"
+          }
+        },
+        {
+          "ms": 7000,
+          "params": {
+            "duration": "7"
+          }
+        },
+        {
+          "ms": 8000,
+          "params": {
+            "duration": "8"
+          }
+        },
+        {
+          "ms": 9000,
+          "params": {
+            "duration": "9"
+          }
+        },
+        {
+          "ms": 10000,
+          "params": {
+            "duration": "10"
+          }
+        },
+        {
+          "ms": 11000,
+          "params": {
+            "duration": "11"
+          }
+        },
+        {
+          "ms": 12000,
+          "params": {
+            "duration": "12"
+          }
+        },
+        {
+          "ms": 13000,
+          "params": {
+            "duration": "13"
+          }
+        },
+        {
+          "ms": 14000,
+          "params": {
+            "duration": "14"
+          }
+        },
+        {
+          "ms": 15000,
+          "params": {
+            "duration": "15"
+          }
+        },
+        {
+          "ms": 16000,
+          "params": {
+            "duration": "16"
+          }
+        },
+        {
+          "ms": 17000,
+          "params": {
+            "duration": "17"
+          }
+        },
+        {
+          "ms": 18000,
+          "params": {
+            "duration": "18"
+          }
+        },
+        {
+          "ms": 19000,
+          "params": {
+            "duration": "19"
+          }
+        },
+        {
+          "ms": 20000,
+          "params": {
+            "duration": "20"
+          }
+        },
+        {
+          "ms": 21000,
+          "params": {
+            "duration": "21"
+          }
+        },
+        {
+          "ms": 22000,
+          "params": {
+            "duration": "22"
+          }
+        },
+        {
+          "ms": 23000,
+          "params": {
+            "duration": "23"
+          }
+        },
+        {
+          "ms": 24000,
+          "params": {
+            "duration": "24"
+          }
+        },
+        {
+          "ms": 25000,
+          "params": {
+            "duration": "25"
+          }
+        },
+        {
+          "ms": 26000,
+          "params": {
+            "duration": "26"
+          }
+        },
+        {
+          "ms": 27000,
+          "params": {
+            "duration": "27"
+          }
+        },
+        {
+          "ms": 28000,
+          "params": {
+            "duration": "28"
+          }
+        },
+        {
+          "ms": 29000,
+          "params": {
+            "duration": "29"
+          }
+        },
+        {
+          "ms": 30000,
+          "params": {
+            "duration": "30"
+          }
+        }
+      ],
+      "fps": 24,
+      "audio": true,
+      "slots": {
+        "prompt": "prompt",
+        "refs": null,
+        "firstFrame": "image_url",
+        "lastFrame": "end_image_url"
+      },
+      "fixedParams": {
+        "generate_audio": true
+      },
+      "billing": {
+        "unit": "1000 tokens",
+        "quantityPerUnit": 1000,
+        "quantity": {
+          "kind": "video_tokens",
+          "pixelsPerToken": 1024
+        }
+      },
+      "commercialUse": {
+        "checkedAt": "2026-10-29",
+        "source": "https://fal.ai/models/bytedance/seedance-2.5/image-to-video"
+      }
+    },
+    {
+      "id": "happy-horse-11",
+      "provider": "fal",
+      "endpoint": "alibaba/happy-horse/v1.1/image-to-video",
+      "output": "video",
+      "use": "Happy Horse 1.1 image to video: animate a keyframe, 3 to 15 seconds, native audio with multilingual lip-sync, 720p",
+      "sizes": [
+        {
+          "w": 1280,
+          "h": 720,
+          "params": {
+            "resolution": "720p"
+          }
+        },
+        {
+          "w": 960,
+          "h": 960,
+          "params": {
+            "resolution": "720p"
+          }
+        },
+        {
+          "w": 720,
+          "h": 1280,
+          "params": {
+            "resolution": "720p"
+          }
+        }
+      ],
+      "durations": [
+        {
+          "ms": 3000,
+          "params": {
+            "duration": 3
+          }
+        },
+        {
+          "ms": 4000,
+          "params": {
+            "duration": 4
+          }
+        },
+        {
+          "ms": 5000,
+          "params": {
+            "duration": 5
+          }
+        },
+        {
+          "ms": 6000,
+          "params": {
+            "duration": 6
+          }
+        },
+        {
+          "ms": 7000,
+          "params": {
+            "duration": 7
+          }
+        },
+        {
+          "ms": 8000,
+          "params": {
+            "duration": 8
+          }
+        },
+        {
+          "ms": 9000,
+          "params": {
+            "duration": 9
+          }
+        },
+        {
+          "ms": 10000,
+          "params": {
+            "duration": 10
+          }
+        },
+        {
+          "ms": 11000,
+          "params": {
+            "duration": 11
+          }
+        },
+        {
+          "ms": 12000,
+          "params": {
+            "duration": 12
+          }
+        },
+        {
+          "ms": 13000,
+          "params": {
+            "duration": 13
+          }
+        },
+        {
+          "ms": 14000,
+          "params": {
+            "duration": 14
+          }
+        },
+        {
+          "ms": 15000,
+          "params": {
+            "duration": 15
+          }
+        }
+      ],
+      "fps": 24,
+      "audio": true,
+      "slots": {
+        "prompt": "prompt",
+        "refs": null,
+        "firstFrame": "image_url",
+        "lastFrame": null
+      },
+      "fixedParams": {},
+      "billing": {
+        "unit": "seconds",
+        "quantityPerUnit": 1,
+        "quantity": {
+          "kind": "per_second"
+        }
+      },
+      "commercialUse": {
+        "checkedAt": "2026-10-30",
+        "source": "https://fal.ai/models/alibaba/happy-horse/v1.1/image-to-video"
+      }
+    },
+    {
+      "id": "minimax-h3",
+      "provider": "fal",
+      "endpoint": "minimax/h3/image-to-video",
+      "output": "video",
+      "use": "MiniMax H3 image to video: animate a keyframe, 5 to 15 seconds, generated soundtrack, 768P; portrait 768x1344 measured 2026-10-31, landscape and square sizes are estimates",
+      "sizes": [
+        {
+          "w": 1366,
+          "h": 768,
+          "params": {
+            "resolution": "768P"
+          }
+        },
+        {
+          "w": 1024,
+          "h": 1024,
+          "params": {
+            "resolution": "768P"
+          }
+        },
+        {
+          "w": 768,
+          "h": 1344,
+          "params": {
+            "resolution": "768P"
+          }
+        }
+      ],
+      "durations": [
+        {
+          "ms": 5000,
+          "params": {
+            "duration": 5
+          }
+        },
+        {
+          "ms": 6000,
+          "params": {
+            "duration": 6
+          }
+        },
+        {
+          "ms": 7000,
+          "params": {
+            "duration": 7
+          }
+        },
+        {
+          "ms": 8000,
+          "params": {
+            "duration": 8
+          }
+        },
+        {
+          "ms": 9000,
+          "params": {
+            "duration": 9
+          }
+        },
+        {
+          "ms": 10000,
+          "params": {
+            "duration": 10
+          }
+        },
+        {
+          "ms": 11000,
+          "params": {
+            "duration": 11
+          }
+        },
+        {
+          "ms": 12000,
+          "params": {
+            "duration": 12
+          }
+        },
+        {
+          "ms": 13000,
+          "params": {
+            "duration": 13
+          }
+        },
+        {
+          "ms": 14000,
+          "params": {
+            "duration": 14
+          }
+        },
+        {
+          "ms": 15000,
+          "params": {
+            "duration": 15
+          }
+        }
+      ],
+      "fps": 24,
+      "audio": true,
+      "slots": {
+        "prompt": "prompt",
+        "refs": null,
+        "firstFrame": "image_url",
+        "lastFrame": "end_image_url"
+      },
+      "fixedParams": {},
+      "billing": {
+        "unit": "seconds",
+        "quantityPerUnit": 1,
+        "quantity": {
+          "kind": "per_second"
+        },
+        "stated": {
+          "unit": "seconds",
+          "bySize": [
+            {
+              "w": 1366,
+              "h": 768,
+              "unitPriceUsd": "0.06"
+            },
+            {
+              "w": 1024,
+              "h": 1024,
+              "unitPriceUsd": "0.06"
+            },
+            {
+              "w": 768,
+              "h": 1344,
+              "unitPriceUsd": "0.06"
+            }
+          ],
+          "checkedAt": "2026-11-12",
+          "source": "https://fal.ai/models/minimax/h3/image-to-video"
+        }
+      },
+      "commercialUse": {
+        "checkedAt": "2026-10-31",
+        "source": "https://fal.ai/models/minimax/h3/image-to-video"
+      }
+    },
+    {
+      "id": "heygen-video-1",
+      "provider": "fal",
+      "endpoint": "heygen/heygen-video/image-to-video",
+      "output": "video",
+      "use": "HeyGen Video 1 image to video, built on MiniMax H3: animate a keyframe, 5 to 15 seconds, generated sound, 768p; portrait 768x1344 measured 2026-10-31, landscape and square sizes are estimates",
+      "sizes": [
+        {
+          "w": 1366,
+          "h": 768,
+          "params": {
+            "resolution": "768p"
+          }
+        },
+        {
+          "w": 1024,
+          "h": 1024,
+          "params": {
+            "resolution": "768p"
+          }
+        },
+        {
+          "w": 768,
+          "h": 1344,
+          "params": {
+            "resolution": "768p"
+          }
+        }
+      ],
+      "durations": [
+        {
+          "ms": 5000,
+          "params": {
+            "duration": 5
+          }
+        },
+        {
+          "ms": 6000,
+          "params": {
+            "duration": 6
+          }
+        },
+        {
+          "ms": 7000,
+          "params": {
+            "duration": 7
+          }
+        },
+        {
+          "ms": 8000,
+          "params": {
+            "duration": 8
+          }
+        },
+        {
+          "ms": 9000,
+          "params": {
+            "duration": 9
+          }
+        },
+        {
+          "ms": 10000,
+          "params": {
+            "duration": 10
+          }
+        },
+        {
+          "ms": 11000,
+          "params": {
+            "duration": 11
+          }
+        },
+        {
+          "ms": 12000,
+          "params": {
+            "duration": 12
+          }
+        },
+        {
+          "ms": 13000,
+          "params": {
+            "duration": 13
+          }
+        },
+        {
+          "ms": 14000,
+          "params": {
+            "duration": 14
+          }
+        },
+        {
+          "ms": 15000,
+          "params": {
+            "duration": 15
+          }
+        }
+      ],
+      "fps": 24,
+      "audio": true,
+      "slots": {
+        "prompt": "prompt",
+        "refs": null,
+        "firstFrame": "image_url",
+        "lastFrame": null
+      },
+      "fixedParams": {},
+      "billing": {
+        "unit": "seconds",
+        "quantityPerUnit": 1,
+        "quantity": {
+          "kind": "per_second"
+        },
+        "stated": {
+          "unit": "seconds",
+          "bySize": [
+            {
+              "w": 1366,
+              "h": 768,
+              "unitPriceUsd": "0.02"
+            },
+            {
+              "w": 1024,
+              "h": 1024,
+              "unitPriceUsd": "0.02"
+            },
+            {
+              "w": 768,
+              "h": 1344,
+              "unitPriceUsd": "0.02"
+            }
+          ],
+          "checkedAt": "2026-11-12",
+          "source": "https://fal.ai/models/heygen/heygen-video/image-to-video"
+        }
+      },
+      "commercialUse": {
+        "checkedAt": "2026-10-31",
+        "source": "https://fal.ai/models/heygen/heygen-video/image-to-video"
+      }
+    },
+    {
+      "id": "wan-30",
+      "provider": "fal",
+      "endpoint": "alibaba/wan-3.0/image-to-video",
+      "output": "video",
+      "use": "Wan 3.0 image to video: animate a keyframe, 2 to 30 seconds, generated audio, 720p",
+      "sizes": [
+        {
+          "w": 1280,
+          "h": 720,
+          "params": {
+            "resolution": "720p"
+          }
+        },
+        {
+          "w": 960,
+          "h": 960,
+          "params": {
+            "resolution": "720p"
+          }
+        },
+        {
+          "w": 720,
+          "h": 1280,
+          "params": {
+            "resolution": "720p"
+          }
+        }
+      ],
+      "durations": [
+        {
+          "ms": 2000,
+          "params": {
+            "duration": 2
+          }
+        },
+        {
+          "ms": 3000,
+          "params": {
+            "duration": 3
+          }
+        },
+        {
+          "ms": 4000,
+          "params": {
+            "duration": 4
+          }
+        },
+        {
+          "ms": 5000,
+          "params": {
+            "duration": 5
+          }
+        },
+        {
+          "ms": 6000,
+          "params": {
+            "duration": 6
+          }
+        },
+        {
+          "ms": 7000,
+          "params": {
+            "duration": 7
+          }
+        },
+        {
+          "ms": 8000,
+          "params": {
+            "duration": 8
+          }
+        },
+        {
+          "ms": 9000,
+          "params": {
+            "duration": 9
+          }
+        },
+        {
+          "ms": 10000,
+          "params": {
+            "duration": 10
+          }
+        },
+        {
+          "ms": 11000,
+          "params": {
+            "duration": 11
+          }
+        },
+        {
+          "ms": 12000,
+          "params": {
+            "duration": 12
+          }
+        },
+        {
+          "ms": 13000,
+          "params": {
+            "duration": 13
+          }
+        },
+        {
+          "ms": 14000,
+          "params": {
+            "duration": 14
+          }
+        },
+        {
+          "ms": 15000,
+          "params": {
+            "duration": 15
+          }
+        },
+        {
+          "ms": 16000,
+          "params": {
+            "duration": 16
+          }
+        },
+        {
+          "ms": 17000,
+          "params": {
+            "duration": 17
+          }
+        },
+        {
+          "ms": 18000,
+          "params": {
+            "duration": 18
+          }
+        },
+        {
+          "ms": 19000,
+          "params": {
+            "duration": 19
+          }
+        },
+        {
+          "ms": 20000,
+          "params": {
+            "duration": 20
+          }
+        },
+        {
+          "ms": 21000,
+          "params": {
+            "duration": 21
+          }
+        },
+        {
+          "ms": 22000,
+          "params": {
+            "duration": 22
+          }
+        },
+        {
+          "ms": 23000,
+          "params": {
+            "duration": 23
+          }
+        },
+        {
+          "ms": 24000,
+          "params": {
+            "duration": 24
+          }
+        },
+        {
+          "ms": 25000,
+          "params": {
+            "duration": 25
+          }
+        },
+        {
+          "ms": 26000,
+          "params": {
+            "duration": 26
+          }
+        },
+        {
+          "ms": 27000,
+          "params": {
+            "duration": 27
+          }
+        },
+        {
+          "ms": 28000,
+          "params": {
+            "duration": 28
+          }
+        },
+        {
+          "ms": 29000,
+          "params": {
+            "duration": 29
+          }
+        },
+        {
+          "ms": 30000,
+          "params": {
+            "duration": 30
+          }
+        }
+      ],
+      "fps": 30,
+      "audio": true,
+      "slots": {
+        "prompt": "prompt",
+        "refs": null,
+        "firstFrame": "start_image_url",
+        "lastFrame": "end_image_url"
+      },
+      "fixedParams": {
+        "audio": true
+      },
+      "billing": {
+        "unit": "seconds",
+        "quantityPerUnit": 1,
+        "quantity": {
+          "kind": "per_second"
+        },
+        "stated": {
+          "unit": "seconds",
+          "bySize": [
+            {
+              "w": 1280,
+              "h": 720,
+              "unitPriceUsd": "0.10"
+            },
+            {
+              "w": 960,
+              "h": 960,
+              "unitPriceUsd": "0.10"
+            },
+            {
+              "w": 720,
+              "h": 1280,
+              "unitPriceUsd": "0.10"
+            }
+          ],
+          "checkedAt": "2026-11-18",
+          "source": "https://fal.ai/models/alibaba/wan-3.0/image-to-video"
+        }
+      },
+      "commercialUse": {
+        "checkedAt": "2026-10-31",
+        "source": "https://fal.ai/models/alibaba/wan-3.0/image-to-video"
+      }
+    }
+  ]
+}
