@@ -1,6 +1,13 @@
 # studio
 
-A Claude Code plugin for making images and videos by asking Claude in plain words. Claude settles a brief with you by asking questions, shows a free drawn preview, prices the work, and generates only after you approve that estimate in the conversation. Then it puts the work together and reviews it with you.
+studio is a Claude Code plugin for AI image and video generation. You ask Claude in plain words; Claude settles a brief with you by asking questions, shows a free drawn preview, prices the work, and generates only after you approve that estimate in the conversation. Then it puts the work together and reviews it with you.
+
+## At a glance
+- **Makes**: images, and videos with spoken lines, captions and drawn text, from a brief Claude settles with you.
+- **Costs**: fake mode is free and needs no key; live generation is billed by fal.ai to your own account, only after you approve its estimate.
+- **Needs**: macOS, Windows or Linux, Claude Code 2.1.139 or newer, Node.js 22.18 or newer and ffmpeg 6 or newer; a fal.ai API key only for live mode.
+- **Runs**: two Node hooks, one at session start (writes the studio folder setting and stores the key) and one before shell commands and file tools (refuses the common ways of reading the key). At install, Claude Code installs the plugin's npm packages from its bundled lockfile.
+- **Sends**: nothing in fake mode. In live mode, price lookups, prompts and input pictures go to the fal.ai hosts the plugin declares (`queue.fal.run`, `api.fal.ai`, `fal.media`), and the results are downloaded from them. See [What leaves your machine](#what-leaves-your-machine).
 
 ## Requirements
 - macOS, Windows or Linux (including WSL2). On macOS the key is kept in the macOS Keychain; on Windows and Linux it is kept in an owner-only file, `provider-key.json` in the studio config folder (`~/.config/studio-plugin/`). Previews read lines with the machine's own voices: macOS voices, Windows' built-in voices or `espeak-ng` on Linux. A line with no voice is previewed silently, with estimated timing.

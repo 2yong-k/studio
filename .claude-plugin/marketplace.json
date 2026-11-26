@@ -8,7 +8,18 @@
     {
       "name": "studio",
       "source": "./plugins/studio",
-      "description": "Make high-quality images and videos by asking Claude: a brief, an approved price quote, then generation and review."
+      "description": "AI image and video generation by asking Claude: a brief, an approved price quote, then generation, assembly and review.",
+      "category": "design",
+      "tags": [
+        "image",
+        "video",
+        "image generation",
+        "video generation",
+        "text to video",
+        "image to video",
+        "ffmpeg",
+        "fal"
+      ]
     }
   ]
 }

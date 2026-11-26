@@ -1,7 +1,17 @@
 {
   "name": "studio",
-  "version": "1.0.0",
-  "description": "Make high-quality images and videos by asking Claude: a brief, an approved price quote, then generation and review.",
+  "version": "1.0.1",
+  "description": "AI image and video generation by asking Claude: a brief, an approved price quote, then generation, assembly and review.",
+  "keywords": [
+    "image",
+    "video",
+    "image generation",
+    "video generation",
+    "text to video",
+    "image to video",
+    "ffmpeg",
+    "fal"
+  ],
   "author": { "name": "2yong-k", "url": "https://github.com/2yong-k" },
   "homepage": "https://github.com/2yong-k/studio",
   "repository": "https://github.com/2yong-k/studio",

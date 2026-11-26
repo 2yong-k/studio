@@ -2,6 +2,9 @@
 
 The changes a user can see, newest release first.
 
+## 1.0.1 — 2026-11-27
+- The README and the plugin listing now say first what studio is (AI image and video generation), what it costs, what it needs, what it runs and what it sends, and the plugin carries search keywords.
+
 ## 1.0.0 — 2026-11-25
 - studio is stable at 1.0.0. Nothing changes in how it works since 0.3.0, and an installed 0.x updates as usual. This repository now holds released versions only, one commit per release.
 - Make images and videos by asking Claude in plain words, in any language. Claude settles a brief by asking questions, shows a free drawn preview, prices the work, and generates only after you approve the estimate in the conversation.
