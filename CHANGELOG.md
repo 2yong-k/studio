@@ -2,6 +2,9 @@
 
 The changes a user can see, newest release first.
 
+## 1.0.2 — 2026-11-27
+- The plugin now also declares `rest.fal.ai`, where fal's client starts a picture upload, and the README says exactly which fal.ai hosts live mode reaches and what the hooks run. Nothing changes in how studio works.
+
 ## 1.0.1 — 2026-11-27
 - The README and the plugin listing now say first what studio is (AI image and video generation), what it costs, what it needs, what it runs and what it sends, and the plugin carries search keywords.
 

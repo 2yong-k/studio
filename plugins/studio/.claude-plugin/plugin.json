@@ -1,6 +1,6 @@
 {
   "name": "studio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AI image and video generation by asking Claude: a brief, an approved price quote, then generation, assembly and review.",
   "keywords": [
     "image",
@@ -17,7 +17,7 @@
   "repository": "https://github.com/2yong-k/studio",
   "license": "MIT",
   "engines": { "claude-code": ">=2.1.139" },
-  "network": { "hosts": ["queue.fal.run", "api.fal.ai", "fal.media", "*.fal.media"] },
+  "network": { "hosts": ["queue.fal.run", "api.fal.ai", "rest.fal.ai", "fal.media", "*.fal.media"] },
   "userConfig": {
     "studio_home": {
       "type": "directory",
